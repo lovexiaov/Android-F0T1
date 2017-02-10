@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/basic"
+        android:icon="@drawable/ic_android"
+        android:title="Andriod Basic"/>
+    <item
+        android:id="@+id/ipc"
+        android:icon="@drawable/ic_android"
+        android:title="Android IPC"/>
+    <item
+        android:id="@+id/view"
+        android:icon="@drawable/ic_android"
+        android:title="Android View"/>
+    <item
+        android:id="@+id/animation"
+        android:icon="@drawable/ic_android"
+        android:title="Android Animation"/>
+    <item
+        android:id="@+id/network"
+        android:icon="@drawable/ic_android"
+        android:title="Android NetWork"/>
+    <item
+        android:id="@+id/media"
+        android:icon="@drawable/ic_android"
+        android:title="Android Media"/>
+    <item
+        android:id="@+id/performance"
+        android:icon="@drawable/ic_android"
+        android:title="Android Performance"/>
+    <item
+        android:id="@+id/ndk"
+        android:icon="@drawable/ic_android"
+        android:title="Android NDK"/>
+    <item
+        android:id="@+id/other"
+        android:icon="@drawable/ic_android"
+        android:title="Android Other"/>
+  </group>
+
+  <item android:title="Communicate">
+    <menu>
+      <item
+          android:id="@+id/nav_share"
+          android:icon="@drawable/ic_menu_share"
+          android:title="Share"/>
+    </menu>
+  </item>
+</menu>
